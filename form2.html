@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admission form</title>
+</head>
+<body>
+    <h1 style="text-align: center;"> Admission form</h1>
+    <form  style="text-align: center;">
+    <label for="First name">First name :</label>
+    <input id="First name"  name="first name" type="text" required> <br><br>
+    <label for="last name">last name :</label>
+    <input id="last name" name="last name" type="text" required><br><br>
+    <label for="email">email :</label>
+    <input id="email" name="email" type="text" required><br><br> 
+    <label for="age">Age :</label>
+    <input id="age" name="age" type="number" min="18" max="30" required><br><br>
+    <label for="Password"> password :</label>
+    <input id="Password" name="password" type="password" pattern="(?=.\d)(?=.[a-z])(?=.[A-Z])(?=.[@#$%^&+=]).{8,}" 
+    title="Password must contain at least one number, one uppercase letter, one lowercase letter, one special character, and be at least 8 characters long"
+    required> <br> <br>
+    <label for="phone number">phone number  :</label>
+    <input id="phone number"  name="phone number" type="tel" required > <br><br>
+    <label for="Gender">Gender  :</label>
+    <input id="gender"  name="gender" type="radio" value="man" >Man 
+    <input id="gender"  name="gender" type="radio" value="women" >women <br><br>
+    <label for="Date of birth">Date of birth  :</label>
+    <input id="Date of birth"  name="Date of birth" type="date" required > <br><br>
+    <label for="Address">Address :</label>
+    <input id="Address"  name="Address" type="text" required> <br><br>
+    <label for="Hobbies">Hobbies :</label>
+    <input id="Hobbies"  name="Hobbies" type="text" required> <br><br>
+    <label for="image">image :</label>
+    <input id="image"  name="image" type="file" required> <br><br>
+   
+    <input id="submit"  name="submit" type="submit"> <br><br>
+</form>
+<h4>My Social accounts</h4>
+<a href="https://www.linkedin.com/in/muhammed-iqbal-0b12b3325?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">linkedin</a><br>
+<a href="https://www.facebook.com/iqbal.memon.545?mibextid=JRoKGi">facebook</a>
+</body>
+</html>
